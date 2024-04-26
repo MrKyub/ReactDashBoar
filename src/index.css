@@ -1,13 +1,38 @@
-body {
+.contenedor-general{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100vh;
+  width: 99vw; 
+  border: 5px solid black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.panel-login {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 99vw; 
+  border: 5px solid black;
+}
+
+.sidebar{
+  width: 10%;
+  height: 100%;
+  background-color: rgb(48, 233, 233);
+}
+
+.panel{
+  width: 90%;
+  height: 100%;
+  background-color: rgb(223, 183, 226);
+}
+
+.tarjeta-login {
+  width: 250px;
+  height: 500px;
+  border: 5px solid rgb(34, 238, 95);
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
